@@ -5,6 +5,7 @@
 - **Carlos Henrique Silva Lopes**
 
 ## **Link do vídeo de Ensaio**
+https://drive.google.com/file/d/1Gk6JlI6aHrq8O4bVZ-2WSq2am1uBoFyU/view?usp=drivesdk
 
 ## **Descrição do Projeto**
 Este repositório contém um exemplo de código para o Raspberry Pi Pico que integra um display SSD1306, um joystick (analógico com botão) e LEDs RGB controlados via PWM.
