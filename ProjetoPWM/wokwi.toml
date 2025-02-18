@@ -1,4 +1,0 @@
-[wokwi]
-version = 1
-firmware = 'build/ProjetoPWM.uf2'
-elf = 'build/ProjetoPWM.elf'
