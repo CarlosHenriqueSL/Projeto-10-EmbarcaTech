@@ -135,7 +135,7 @@ int main()
 
         // Mapeia os valores ADC para a posição do quadrado (8x8 pixels)
         // Observe que invertemos os eixos para que o movimento corresponda à direção física do joystick
-        uint8_t square_x = ((4095 - adc_y) * (ssd.width - 8)) / 4095;
+        uint8_t square_x = ((adc_y) * (ssd.width - 8)) / 4095;
         uint8_t square_y = ((4095 - adc_x) * (ssd.height - 8)) / 4095;
         ssd1306_rect(&ssd, square_y, square_x, 8, 8, true, true);
         ssd1306_send_data(&ssd);
